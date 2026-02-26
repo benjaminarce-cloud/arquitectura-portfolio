@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Inter:wght@300;400;500&display=swap');
+
+@layer base {
+  * {
+    @apply antialiased;
+  }
+  
+  body {
+    @apply font-sans text-text bg-bg-light;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer utilities {
+  /* Fade in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease forwards;
+  }
+
+  /* Slide up animation */
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-slide-up {
+    animation: slideUp 1s ease forwards;
+  }
+
+  /* Float animation for scroll indicator */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  .animate-float {
+    animation: float 2s ease infinite;
+  }
+
+  /* Hero image fade */
+  @keyframes heroImageFade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .animate-hero-image {
+    animation: heroImageFade 1.2s ease 0.3s forwards;
+  }
+
+  /* Card float (for floating info card) */
+  @keyframes cardFloat {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-card-float {
+    animation: cardFloat 1s ease 1.4s forwards;
+  }
+
+  /* Custom cubic bezier for smooth transitions */
+  .transition-smooth {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
