@@ -107,7 +107,6 @@ export const projects: Project[] = [
   },
   
   {
-    {
     id: 'rancho-espiritu',
     name: 'Rancho Espíritu',
     location: 'El Sauzal',
