@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter, Cormorant_Garamond } from 'next/font/google'
+import { HomeIconNav } from '@/components/HomeIconNav'
 import './globals.css'
 
 const inter = Inter({
@@ -29,7 +30,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${cormorant.variable}`}>
-      <body className="animate-fade-in">{children}</body>
+      <body className="animate-fade-in">
+        <HomeIconNav />
+        {children}
+      </body>
     </html>
   )
 }

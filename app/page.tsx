@@ -15,7 +15,7 @@ export default function HomePage() {
 
       <main className="bg-bg-light relative z-10">
         {/* Project Grid */}
-        <section className="py-32 px-4 md:px-8 max-w-[1600px] mx-auto">
+        <section id="projects" className="py-32 px-4 md:px-8 max-w-[1600px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-12 md:auto-rows-[400px] gap-8">
             {/* Asymmetric grid layout */}
             <ProjectCard 
