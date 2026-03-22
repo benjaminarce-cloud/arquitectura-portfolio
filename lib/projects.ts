@@ -34,75 +34,39 @@ export const projects: Project[] = [
   {
     id: 'casa-karen',
     name: 'Casa Karen',
-    location: 'Cabo del Sol',
-    year: '2019',
-    type: 'Residential Villa',
-    accent: '#d4a574',
-    
-    // REPLACE THIS WITH YOUR CLOUDINARY URL
-    hero: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1920&h=1280&fit=crop&q=90',
-    
-    // REPLACE THESE 25 URLS WITH YOUR CLOUDINARY URLS
-    // Follow the pattern described above (full-width, centered, side-by-side)
+    location: 'Cabo',
+    year: '2018',
+    type: 'Beach House',
+    accent: '#e8b4a0',
+
+    hero: 'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066346/YMA_0665_lxnghw.jpg',
+
     images: [
-      // Image 1-2: Full-width arrival shots
-      'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=1920&h=1280&fit=crop&q=85',
-      
-      // Image 3: Detail (will be 80% centered)
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&h=1067&fit=crop&q=85',
-      
-      // Images 4-5: Side-by-side context
-      'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=900&h=600&fit=crop&q=85',
-      
-      // Image 6: Full-width main living
-      'https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1920&h=1280&fit=crop&q=85',
-      
-      // Image 7: Intimate moment (60% centered)
-      'https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=1200&h=800&fit=crop&q=85',
-      
-      // Image 8: Full-width view
-      'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1920&h=1280&fit=crop&q=85',
-      
-      // Images 9-10: Side-by-side details
-      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=900&h=600&fit=crop&q=85',
-      
-      // Image 11: Full-width bedroom
-      'https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=1920&h=1280&fit=crop&q=85',
-      
-      // Image 12: 80% centered bathroom
-      'https://images.unsplash.com/photo-1600566752229-250ed79470f7?w=1600&h=1067&fit=crop&q=85',
-      
-      // Images 13-14: Side-by-side materials
-      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600566753151-384129cf4e3e?w=900&h=600&fit=crop&q=85',
-      
-      // Image 15-16: Full-width outdoor/pool
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1920&h=1280&fit=crop&q=85',
-      
-      // Image 17: 60% centered detail
-      'https://images.unsplash.com/photo-1600607687644-c7171b42498f?w=1200&h=800&fit=crop&q=85',
-      
-      // Images 18-19: Side-by-side landscape
-      'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?w=900&h=600&fit=crop&q=85',
-      
-      // Image 20: Full-width dusk hero
-      'https://images.unsplash.com/photo-1600047509358-9dc75507daeb?w=1920&h=1280&fit=crop&q=85',
-      
-      // Images 21-22: Side-by-side evening
-      'https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600566752355-35792bedcfea?w=900&h=600&fit=crop&q=85',
-      
-      // Image 23: 80% centered detail
-      'https://images.unsplash.com/photo-1600210492493-0946911123ea?w=1600&h=1067&fit=crop&q=85',
-      
-      // Image 24-25: Full-width final shots
-      'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=1920&h=1280&fit=crop&q=85',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066346/YMA_0665_lxnghw.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066346/YMA_0670_gt3dpf.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1600,q_auto,f_auto/v1772066344/YMA_0673_lbk8hi.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066344/YMA_0677_khjjth.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066344/YMA_0679_lk3ad8.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066344/YMA_0683_d9bmes.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1200,q_auto,f_auto/v1772066343/YMA_0688_imduzx.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066342/YMA_0693_jjwdgb.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066342/YMA_0701_b6hbzh.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066354/YMA_0705_odjo4l.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066340/YMA_0708_yiz4jc.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1600,q_auto,f_auto/v1772066340/YMA_0710_xkfjok.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066340/YMA_0714_hyd7ne.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066339/YMA_0719_iov2xr.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066338/YMA_0721_wwhwux.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066338/YMA_0729_jkbxqc.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1200,q_auto,f_auto/v1772066338/YMA_0732_znudcr.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066337/YMA_0748_aqrc5h.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066337/YMA_0755_ale2cx.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066336/YMA_0767_mnmhxs.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066346/YMA_0773_zr8wkc.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066337/YMA_0774_yjjz8a.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1600,q_auto,f_auto/v1772066334/YMA_0780_irz7bi.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066334/YMA_0789_ikmwis.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066341/YMA_0792_etbwrv.jpg',
     ],
   },
   
@@ -149,125 +113,116 @@ export const projects: Project[] = [
     id: 'el-parque-08',
     name: 'El Parque 08',
     location: 'Querencia',
-    year: '2021',
-    type: 'Modern Villa',
-    accent: '#4a7c89',
-    
-    // REPLACE WITH YOUR CLOUDINARY URL
-    hero: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&h=1280&fit=crop&q=90',
-    
-    // REPLACE THESE 25 URLS WITH YOUR CLOUDINARY URLS
+    year: '2022',
+    type: 'Modern Home',
+    accent: '#8b7355',
+
+    hero: 'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066613/YBV2022_-_10_jmtele.jpg',
+
     images: [
-      // Add your 25 images here
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&h=1067&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&h=800&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&h=1067&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&h=800&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&h=1067&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1920&h=1280&fit=crop&q=85',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066613/YBV2022_-_10_jmtele.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066612/YBV2022_-_13_vj19fx.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1600,q_auto,f_auto/v1772066610/YBV2022_-_17_lhqmbg.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066610/YBV2022_-_18_d01tr8.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066609/YBV2022_-_19_y1jjfc.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066608/YBV2022_-_20_fmss7f.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1200,q_auto,f_auto/v1772066607/YBV2022_-_21_ogthnz.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066606/YBV2022_-_23_wjfaus.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066606/YBV2022_-_25_f52yaw.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066604/YBV2022_-_28_uytw33.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066603/YBV2022_-_31_wxj4z0.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1600,q_auto,f_auto/v1772066600/YBV2022_-_36_rnshsx.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066599/YBV2022_-_39_-_copia_gobwwg.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066596/YBV2022_-_40_beadsz.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066595/YBV2022_-_41_vr2j9q.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066593/YBV2022_-_45_lmwuxk.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1200,q_auto,f_auto/v1772066590/YBV2022_-_49_qyj2hn.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066587/YBV2022_-_51_fftdht.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066586/YBV2022_-_53_iyscmb.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066573/YBV2022_-_6SUNSET_cpexj7.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066571/YBV2022_-_8SUNSET_kutybe.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066561/YBV2022-SUNSET_t0hmwt.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1600,q_auto,f_auto/v1772066572/YBV2022_-_70_bm6uq6.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066577/YBV2022_-_64_wl7ugm.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066576/YBV2022_-_66_j3mops.jpg',
     ],
   },
   
   {
     id: 'cresta-del-mar',
-    name: 'Cresta del Mar 36',
-    location: 'Cabo San Lucas',
-    year: '2018',
-    type: 'Mediterranean Villa',
-    accent: '#c4968c',
-    
-    // REPLACE WITH YOUR CLOUDINARY URL
-    hero: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1920&h=1280&fit=crop&q=90',
-    
-    // REPLACE THESE 25 URLS WITH YOUR CLOUDINARY URLS
+    name: 'Cresta del Mar',
+    location: 'Querencia',
+    year: '2021',
+    type: 'Ocean View',
+    accent: '#6b8e9f',
+
+    hero: 'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066472/YMA_0187_il6qxw.jpg',
+
     images: [
-      // Add your 25 images here
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600&h=1067&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&h=800&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600&h=1067&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&h=800&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600&h=1067&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1920&h=1280&fit=crop&q=85',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066472/YMA_0187_il6qxw.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066472/YMA_0195_ot0xnz.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1600,q_auto,f_auto/v1772066472/YMA_0137_asvo1f.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066483/DRON_1_fqg5c9.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066483/IMG_7818_oscka0.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066482/IMG_7823_wdjhi7.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1200,q_auto,f_auto/v1772066481/IMG_7826_uwoygq.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066486/IMG_7831_dqt9lw.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066480/IMG_7836_p0m0j1.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066480/IMG_7838_wjbwld.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066479/IMG_7848_d9fez4.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1600,q_auto,f_auto/v1772066479/IMG_7862_vef4eq.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066478/IMG_7864_ztfdlk.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066478/IMG_7866_huwjtu.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066478/IMG_7872_b84fho.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066477/IMG_7879_l1a47v.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1200,q_auto,f_auto/v1772066476/IMG_7886_zh9io6.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066476/IMG_7887_y5pn6w.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066475/IMG_7889_vlfesh.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066475/IMG_7896_xglkuy.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066474/IMG_7912_owlxxk.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066474/IMG_7914_p1sebw.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1600,q_auto,f_auto/v1772066473/IMG_7915_jwymk0.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066473/thumbnail_DSC_0461_2_dtj1f0.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066472/thumbnail_DSC_0466_2_drzrxt.jpg',
     ],
   },
   
   {
     id: 'casa-agradecida',
-    name: 'Casa Agradecida Stable',
-    location: 'Rancho Migriño',
-    year: '2022',
-    type: 'Equestrian Facility',
-    accent: '#7a6551',
-    
-    // REPLACE WITH YOUR CLOUDINARY URL
-    hero: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1920&h=1280&fit=crop&q=90',
-    
-    // REPLACE THESE 25 URLS WITH YOUR CLOUDINARY URLS
+    name: 'Casa Agradecida',
+    location: 'El Estable',
+    year: '2019',
+    type: 'Sanctuary',
+    accent: '#a67c52',
+
+    hero: 'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066778/YMA_0665_rqfds0.jpg',
+
     images: [
-      // Add your 25 images here
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1600&h=1067&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200&h=800&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1600&h=1067&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1200&h=800&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=900&h=600&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1600&h=1067&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1920&h=1280&fit=crop&q=85',
-      'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1920&h=1280&fit=crop&q=85',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066778/YMA_0665_rqfds0.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066777/YMA_0670_kvhupv.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1600,q_auto,f_auto/v1772066777/YMA_0673_z2bvog.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066783/YMA_0677_eucod1.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066775/YMA_0679_t4em74.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066774/YMA_0683_ft14yp.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1200,q_auto,f_auto/v1772066774/YMA_0688_evixmy.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066773/YMA_0693_ozewux.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066772/YMA_0701_cjijpv.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066771/YMA_0705_fzz9hv.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066770/YMA_0708_rqqfds.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1600,q_auto,f_auto/v1772066770/YMA_0710_hft9wi.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066769/YMA_0714_iwfzlk.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066768/YMA_0719_ppznds.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066767/YMA_0721_gexef5.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066767/YMA_0729_vxthjv.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1200,q_auto,f_auto/v1772066767/YMA_0732_wqwuzj.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066765/YMA_0748_aoequl.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066764/YMA_0755_perezt.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066764/YMA_0767_ltqwri.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066762/YMA_0773_gddimj.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_900,q_auto,f_auto/v1772066761/YMA_0774_pc07lp.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1600,q_auto,f_auto/v1772066760/YMA_0780_kwtaow.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066760/YMA_0789_hrdydc.jpg',
+      'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066759/YMA_0792_jfvxwj.jpg',
     ],
   },
 ];
