@@ -42,7 +42,7 @@ export function OpeningHero() {
                 }}
               >
                 <p className="mb-4 text-[10px] uppercase tracking-[0.3em] text-[#7b6a56] md:text-[11px]">
-                  La Paz / Los Cabos / Mexico
+                  BAJA CALIFORNIA SUR
                 </p>
                 <h1 className="max-w-[8ch] text-[clamp(4.1rem,10vw,10.5rem)] font-serif font-light leading-[0.82] tracking-[-0.06em] text-[#151311]">
                   Yoshio
@@ -61,11 +61,7 @@ export function OpeningHero() {
                   animationFillMode: 'forwards',
                 }}
               >
-                <p className="text-[11px] font-light uppercase tracking-[0.24em] leading-6 text-[#4e463d] md:text-[12px]">
-                  Private houses composed for stone, shade, and coastal light.
-                </p>
-
-                <div className="mt-8 flex items-center gap-6">
+                <div className="flex items-center gap-6">
                   <Link
                     href="#projects"
                     className="inline-flex items-center gap-3 text-[11px] uppercase tracking-[0.28em] text-[#151311] transition-opacity duration-300 hover:opacity-60"
