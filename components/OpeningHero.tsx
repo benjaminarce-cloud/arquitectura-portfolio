@@ -3,18 +3,15 @@ import Link from 'next/link';
 import { projects } from '@/lib/projects';
 
 const leadImage = projects[2];
-const insetImages = [
-  {
-    src: projects[3].images[14],
-    alt: `${projects[3].name} detail`,
-    label: 'Stone + Pacific Light',
-  },
-  {
-    src: projects[1].images[15],
-    alt: `${projects[1].name} courtyard`,
-    label: 'Courtyard + Shade',
-  },
-];
+
+type HeroBottomVariant = 'stats' | 'philosophy' | 'none';
+
+const HERO_BOTTOM_VARIANT: HeroBottomVariant = 'stats';
+
+const heroBottomCopy = {
+  stats: '2018 — 2022  /  FIVE PROJECTS  /  SELECTED WORK',
+  philosophy: 'Private homes shaped for stone, shadow, and the slow light of Baja',
+} as const;
 
 export function OpeningHero() {
   return (
@@ -47,9 +44,14 @@ export function OpeningHero() {
                 <p className="mb-4 text-[10px] uppercase tracking-[0.3em] text-[#7b6a56] md:text-[11px]">
                   La Paz / Los Cabos / Mexico
                 </p>
-                <h1 className="max-w-[8ch] text-[clamp(4.8rem,11vw,9.75rem)] font-serif font-light leading-[0.84] tracking-[-0.055em] text-[#151311]">
-                  Desert Coast Architecture
+                <h1 className="max-w-[8ch] text-[clamp(4.1rem,10vw,10.5rem)] font-serif font-light leading-[0.82] tracking-[-0.06em] text-[#151311]">
+                  Yoshio
+                  <br />
+                  Urakami
                 </h1>
+                <p className="mt-4 max-w-[20ch] text-[clamp(0.95rem,1.8vw,1.45rem)] font-serif font-light italic leading-[1.18] text-[#3f372f]">
+                  Residential Architecture in Baja California Sur
+                </p>
               </div>
 
               <div
@@ -59,8 +61,8 @@ export function OpeningHero() {
                   animationFillMode: 'forwards',
                 }}
               >
-                <p className="text-sm font-light uppercase tracking-[0.22em] leading-6 text-[#4e463d] md:text-[13px]">
-                  Private homes shaped for stone, shadow, salt air, and the slow light of Baja.
+                <p className="text-[11px] font-light uppercase tracking-[0.24em] leading-6 text-[#4e463d] md:text-[12px]">
+                  Private houses composed for stone, shade, and coastal light.
                 </p>
 
                 <div className="mt-8 flex items-center gap-6">
@@ -111,32 +113,31 @@ export function OpeningHero() {
                   </div>
                 </div>
 
-                <div className="mt-4 grid grid-cols-2 gap-4 lg:absolute lg:-left-20 lg:bottom-10 lg:mt-0 lg:w-[44%]">
-                  {insetImages.map((image, index) => (
-                    <article
-                      key={image.label}
-                      className={`relative overflow-hidden bg-black/10 ${
-                        index === 0 ? 'aspect-[4/5] lg:translate-y-10' : 'aspect-[5/4]'
-                      }`}
-                    >
-                      <Image
-                        src={image.src}
-                        alt={image.alt}
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 1024px) 50vw, 20vw"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/45 via-black/5 to-transparent" />
-                      <p className="absolute bottom-3 left-3 right-3 text-[10px] uppercase tracking-[0.22em] text-white/78 md:bottom-4 md:left-4 md:right-4">
-                        {image.label}
-                      </p>
-                    </article>
-                  ))}
-                </div>
               </div>
             </div>
           </div>
         </div>
+
+        {HERO_BOTTOM_VARIANT !== 'none' && (
+          <div
+            className="border-t border-black/10 pt-4 opacity-0 translate-y-4 animate-slide-up md:pt-5"
+            style={{
+              animationDelay: '0.6s',
+              animationFillMode: 'forwards',
+            }}
+          >
+            {HERO_BOTTOM_VARIANT === 'stats' && (
+              <p className="text-[10px] uppercase tracking-[0.24em] text-[#605343] md:text-[11px] md:tracking-[0.3em]">
+                {heroBottomCopy.stats}
+              </p>
+            )}
+            {HERO_BOTTOM_VARIANT === 'philosophy' && (
+              <p className="text-[11px] font-serif italic text-[#54483b] md:text-[12px]">
+                {heroBottomCopy.philosophy}
+              </p>
+            )}
+          </div>
+        )}
       </div>
     </section>
   );
