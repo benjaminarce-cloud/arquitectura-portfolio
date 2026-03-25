@@ -9,7 +9,7 @@ type HeroBottomVariant = 'stats' | 'philosophy' | 'none';
 const HERO_BOTTOM_VARIANT: HeroBottomVariant = 'stats';
 
 const heroBottomCopy = {
-  stats: '2018 — 2022  /  FIVE PROJECTS  /  SELECTED WORK',
+  stats: 'SELECTED WORK',
   philosophy: 'Private homes shaped for stone, shadow, and the slow light of Baja',
 } as const;
 
