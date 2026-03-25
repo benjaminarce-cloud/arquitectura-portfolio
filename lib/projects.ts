@@ -117,7 +117,7 @@ export const projects: Project[] = [
     type: 'Modern Home',
     accent: '#8b7355',
 
-    hero: 'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066613/YBV2022_-_10_jmtele.jpg',
+    hero: 'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066573/YBV2022_-_6SUNSET_cpexj7.jpg',
 
     images: [
       'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066613/YBV2022_-_10_jmtele.jpg',
@@ -156,7 +156,7 @@ export const projects: Project[] = [
     type: 'Ocean View',
     accent: '#6b8e9f',
 
-    hero: 'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066472/YMA_0187_il6qxw.jpg',
+    hero: 'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066483/DRON_1_fqg5c9.jpg',
 
     images: [
       'https://res.cloudinary.com/dzjcndphq/image/upload/w_1920,q_auto,f_auto/v1772066472/YMA_0187_il6qxw.jpg',
