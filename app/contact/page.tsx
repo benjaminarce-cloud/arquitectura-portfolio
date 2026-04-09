@@ -21,6 +21,14 @@ export default function ContactPage() {
               yoshiourakami@gmail.com
             </a>
           </p>
+          <p>
+            <a
+              href="tel:+526241475529"
+              className="border-b border-gray-300 hover:border-text transition-colors"
+            >
+              +52 6241475529
+            </a>
+          </p>
         </div>
 
         <p className="mt-16">
