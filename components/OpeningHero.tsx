@@ -6,7 +6,7 @@ const leadImage = projects[2];
 
 type HeroBottomVariant = 'stats' | 'philosophy' | 'none';
 
-const HERO_BOTTOM_VARIANT: HeroBottomVariant = 'stats';
+const HERO_BOTTOM_VARIANT: HeroBottomVariant = 'none';
 
 const heroBottomCopy = {
   stats: 'SELECTED WORK',
